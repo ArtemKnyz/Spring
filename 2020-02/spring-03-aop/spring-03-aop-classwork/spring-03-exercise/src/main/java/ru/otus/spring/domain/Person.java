@@ -1,6 +1,13 @@
 package ru.otus.spring.domain;
 
 public class Person {
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
 
     private String name;
     private int age;
