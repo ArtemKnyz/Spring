@@ -5,3 +5,4 @@ logging:
 lifecycle:
   print:
     enabled: true
+

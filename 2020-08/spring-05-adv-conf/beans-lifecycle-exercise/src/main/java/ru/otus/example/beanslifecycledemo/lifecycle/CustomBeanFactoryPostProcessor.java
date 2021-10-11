@@ -17,7 +17,7 @@ public class CustomBeanFactoryPostProcessor implements BeanFactoryPostProcessor 
             System.out.println("Шаг #1: BeanFactoryPostProcessor.postProcessBeanFactory\n");
         }
 
-/*
+
         for (String beanName : beanFactory.getBeanDefinitionNames()) {
             BeanDefinition d = beanFactory.getBeanDefinition(beanName);
 
@@ -27,6 +27,6 @@ public class CustomBeanFactoryPostProcessor implements BeanFactoryPostProcessor 
                 d.setAutowireCandidate(true);
             }
         }
-*/
+
     }
 }

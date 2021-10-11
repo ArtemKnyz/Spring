@@ -1,11 +1,11 @@
 condition:
   alexey-exists: true
-  yanis-exists: false
+  yanis-exists: true
 
 spring:
   profiles:
     #Доступные профили: Oleg и Peter
-    active:
+    active: Oleg, Peter
 
 logging:
   level:
@@ -15,6 +15,7 @@ logging:
 ---
 spring:
   profiles: Peter
+
 
 condition:
   yanis-exists: true
